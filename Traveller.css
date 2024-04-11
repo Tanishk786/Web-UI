@@ -130,9 +130,13 @@
 }
 
 .features {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: #fff;
     display: flex;
     flex-direction: column;
     padding-top: 4rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 .feature-1 {
@@ -255,7 +259,7 @@
     border-radius: 1rem;
     left: 0;
     height: 98%;
-    width: 90%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.66);
     transition: all 0.2s ease 0s;
     opacity: 0;
@@ -266,7 +270,11 @@
 }
 
 #services {
-    padding-top: 8rem;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: #fff;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -295,7 +303,7 @@
 }
 
 .card:hover {
-    border: 1px solid black;
+    border: 1px solid #fff;
     transform: scale(1.1);
 
 }
@@ -527,6 +535,8 @@
 .plan {
     display: flex;
     padding-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: #fff;
     justify-content: center;
     height: 100%;
     width: 100%;
@@ -571,7 +581,6 @@
     height: 100%;
     width: 100%;
     justify-content: space-around;
-    border: 1px solid black;
 }
 
 .con-12 {
@@ -632,10 +641,14 @@
 }
 
 .footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #fff;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.836);
 }
 
 .foot-1 {
